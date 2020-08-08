@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cl"
+    tools:context=".Dashboard">
+
+
+    <Button
+        android:id="@+id/pari"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="48dp"
+        android:text="Parivahan"
+        android:background="@drawable/regback"
+        app:layout_constraintBottom_toTopOf="@+id/dlca"
+        app:layout_constraintEnd_toStartOf="@+id/reca"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/reca"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="87dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="RC"
+        android:background="@drawable/regback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pari"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dlca"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Dl"
+        android:background="@drawable/clr"
+        app:layout_constraintEnd_toStartOf="@+id/vahk"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pari" />
+
+    <Button
+        android:id="@+id/vahk"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="VAHAN REPORT PORTAL "
+        android:background="@drawable/clr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dlca"
+        app:layout_constraintTop_toBottomOf="@+id/reca" />
+
+    <Button
+        android:id="@+id/dlf"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Driving Licence form"
+        android:background="@drawable/cl2"
+        app:layout_constraintEnd_toStartOf="@+id/allff"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dlca" />
+
+    <Button
+        android:id="@+id/allff"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="All Forms"
+        android:background="@drawable/cl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/dlf"
+        app:layout_constraintTop_toBottomOf="@+id/vahk" />
+
+    <Button
+        android:id="@+id/aut"
+        android:layout_width="133dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="e-AuthorisationCard"
+        android:background="@drawable/cl2"
+        app:layout_constraintEnd_toStartOf="@+id/vhad"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dlf" />
+
+    <Button
+        android:id="@+id/vhad"
+        android:layout_width="131dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="VEHICLE REGI STATUS"
+        android:background="@drawable/cl2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/aut"
+        app:layout_constraintTop_toBottomOf="@+id/allff" />
+
+    <Button
+        android:id="@+id/butt"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="License Status"
+        android:background="@drawable/clr"
+        app:layout_constraintEnd_toStartOf="@+id/button16"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/aut" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="Button"
+        android:background="@drawable/clr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/butt"
+        app:layout_constraintTop_toBottomOf="@+id/vhad" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:text="Button"
+        android:background="@drawable/regback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button18"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/butt"
+        app:layout_constraintVertical_bias="0.121" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="132dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginRight="26dp"
+        android:text="Button"
+        android:background="@drawable/sk"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button17"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:layout_constraintVertical_bias="0.121" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

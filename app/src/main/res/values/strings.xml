@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">VussK</string>
+    <string name="vuss_app">VUSS APP</string>
+    <string name="about_us_" />
+    <string name="renewal_document" />
+    <string name="camera">Camera</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_to_home">Welcome to home</string>
+</resources>

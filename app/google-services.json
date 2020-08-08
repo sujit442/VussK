@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "402678594478",
+    "firebase_url": "https://vussk-112ff.firebaseio.com",
+    "project_id": "vussk-112ff",
+    "storage_bucket": "vussk-112ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:402678594478:android:a9e29fab62ca34adfea63f",
+        "android_client_info": {
+          "package_name": "com.example.vussk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "402678594478-qkle4ubq3vejhsvf3nkft6o2dheiigt6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByfkycwTSHIWJDSxY_Dl49wfbCPcrIWac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "402678594478-qkle4ubq3vejhsvf3nkft6o2dheiigt6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
